@@ -1,5 +1,28 @@
 # Exemplos de uso do SelectBox com Props e Hooks, Fetch e Axios
 
+## Requisitos
+    NodeJS versão +16
+## Utilizando o repositório
+1. Criar a arquitetura da aplicação React
+
+```
+git clone https://github.com/malki-cedheq/react_selectbox_boostrap_with_fetching.git
+```
+
+2. Instalando as dependências
+
+```
+npm install
+```
+
+3. Inicializar o servidor, no diretório raiz
+
+```
+npm start
+```
+
+## Criando aplicação do Zero
+
 1. Criar a arquitetura da aplicação React
 
 ```
