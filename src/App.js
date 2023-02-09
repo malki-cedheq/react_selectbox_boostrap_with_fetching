@@ -10,6 +10,7 @@ import SelectBoxFetchProps from './components/SelectBoxFetchProps'
 import SelectBoxAxiosProps from './components/SelectBoxAxiosProps'
 import SelectBoxFetchHooks from './components/SelectBoxFetchHooks'
 import SelectBoxAxiosHooks from './components/SelectBoxAxiosHooks'
+import { Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 export default function App() {
   return (
@@ -17,10 +18,13 @@ export default function App() {
     <div>
         <h1> Exemplo de uso do selectbox </h1>
     </div>
-      <SelectBoxFetchProps />
-      <SelectBoxAxiosProps/>
-      <SelectBoxFetchHooks/>
-      <SelectBoxAxiosHooks/>
+    <Form>
+        <SelectBoxFetchProps />
+        <SelectBoxAxiosProps/>
+        <SelectBoxFetchHooks/>
+        <SelectBoxAxiosHooks/>
+    </Form>
+
     </>
   )
 }
