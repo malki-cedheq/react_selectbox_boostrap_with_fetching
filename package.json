@@ -1,4 +1,5 @@
 {
+  "proxy": "http://172.24.204.242:7000",
   "name": "select_box-fetching",
   "version": "0.1.0",
   "description": "exemplo de uso de selectbox em bootstrap com fectching utilizando função fetch e também axios, Hooks e também Props",
